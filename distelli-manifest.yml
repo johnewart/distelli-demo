@@ -7,6 +7,7 @@ johnewart/distelli-demo:
 
   Build:
     - echo "Begin Build"
+    - command -v jdk_switcher > /dev/null && jdk_switcher use oraclejdk8
     - mvn package
 
   PreInstall:
