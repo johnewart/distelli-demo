@@ -19,4 +19,4 @@ johnewart/distelli-demo:
     - echo "Begin PostInstall"
 
   Exec:
-    - java -jar target/dropwizard-example-1.0.0-SNAPSHOT.jar server example.yml
+    - ./jre1.8.0_45/bin/java -jar target/dropwizard-example-1.0.0-SNAPSHOT.jar server example.yml
